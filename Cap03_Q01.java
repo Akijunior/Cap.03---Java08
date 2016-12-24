@@ -30,9 +30,9 @@ public class Cap03_Q01 {
 			System.out.println("Valor inválido!");
 		}
 		double precoFinal = valorProduto - (valorProduto * desconto/100);
-		System.out.println("Nome do Produto: " + nomeProduto);
-		System.out.println("Preço Original: " + valorProduto);
-		System.out.println("Preço Final com desconto: " + precoFinal);
+		JOptionPane.showMessageDialog(null, "Nome do Produto: " + nomeProduto);
+		JOptionPane.showMessageDialog(null, "Preço Original: " + valorProduto);
+		JOptionPane.showMessageDialog(null, "Preço Final com desconto: " + precoFinal);
 
 }
 
